@@ -36,7 +36,6 @@ jobs:
         with:
           appSourcePath: ${{ github.workspace }}/SIMSAPI
           dockerfilePath: Dockerfile
-          _targetLabelKey_: _targetLabel_
           registryUrl: simsapi.azurecr.io
           registryUsername: ${{ secrets.API_REGISTRY_USERNAME }}
           registryPassword: ${{ secrets.API_REGISTRY_PASSWORD }}
